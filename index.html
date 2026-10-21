@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vera Skin Studio | Косметолог</title>
+    <meta
+      name="description"
+      content="Премиум косметология: чистка лица, инъекции, уходовые программы. Реальные результаты, прозрачные цены и онлайн-запись."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="hero" id="top">
+      <div class="container">
+        <nav class="topbar">
+          <p class="logo">Vera Skin Studio</p>
+          <a href="#booking" class="btn btn--ghost btn--small">Записаться</a>
+        </nav>
+
+        <div class="hero__content card">
+          <div class="hero__left">
+            <span class="hero__badge">Эстетическая косметология premium-class</span>
+            <h1>Кожа, в которую вы влюбитесь. Лицо, которым вы гордитесь.</h1>
+            <p class="hero__subtitle">
+              Делаем кожу чистой, ровной и визуально моложе без эффекта
+              "переколотого" лица. Только персональные протоколы и безопасные
+              сертифицированные методики.
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#booking">Записаться</a>
+              <a class="btn btn--ghost" href="#booking">Получить консультацию</a>
+            </div>
+            <ul class="hero__benefits">
+              <li><span class="icon" aria-hidden="true">✦</span> Результат после первого визита</li>
+              <li><span class="icon" aria-hidden="true">✦</span> 96% клиенток возвращаются повторно</li>
+              <li><span class="icon" aria-hidden="true">✦</span> Гарантия стерильности и комфорта</li>
+            </ul>
+          </div>
+
+          <aside class="hero__right card">
+            <p class="hero__card-title">Спецпредложение для новых клиенток</p>
+            <p class="hero__promo">-20% на первую процедуру + skin-консультация в подарок</p>
+            <p class="hero__timer-label">До конца акции:</p>
+            <p class="hero__timer" id="promoTimer">23:59:59</p>
+            <a class="btn btn--primary hero__card-btn" href="#booking">Забронировать скидку</a>
+          </aside>
+        </div>
+
+        <div class="hero-stats">
+          <article class="card hero-stat">
+            <p class="hero-stat__value">8+ лет</p>
+            <p>опыта в косметологии</p>
+          </article>
+          <article class="card hero-stat">
+            <p class="hero-stat__value">3 200+</p>
+            <p>проведенных процедур</p>
+          </article>
+          <article class="card hero-stat">
+            <p class="hero-stat__value">4.9/5</p>
+            <p>средняя оценка клиенток</p>
+          </article>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section" id="services">
+        <div class="container">
+          <div class="section__head">
+            <h2>Услуги, которые дают видимый результат</h2>
+            <p>Подбираем комбинацию процедур под вашу цель: чистота, сияние, лифтинг, anti-age.</p>
+          </div>
+          <div class="grid grid--services">
+            <article class="card service">
+              <h3>Чистка лица</h3>
+              <p>Ультразвуковая, атравматичная, комбинированная. Мгновенно освежает тон и уменьшает воспаления.</p>
+              <p class="service__meta">Эффект: чистые поры и ровный рельеф</p>
+            </article>
+            <article class="card service">
+              <h3>Инъекционные процедуры</h3>
+              <p>Биоревитализация, мезотерапия, ботулинотерапия. Аккуратное омоложение без потери естественной мимики.</p>
+              <p class="service__meta">Эффект: плотность, упругость и свежесть</p>
+            </article>
+            <article class="card service">
+              <h3>Уходовые программы</h3>
+              <p>Пилинги, ферментативные маски и восстановление после стресса. Подход для чувствительной кожи.</p>
+              <p class="service__meta">Эффект: сияние и длительное увлажнение</p>
+            </article>
+          </div>
+
+          <div class="packages card">
+            <h3>Готовые программы для быстрого результата</h3>
+            <div class="packages__list">
+              <p><strong>Glow Start</strong> — чистка + увлажняющий уход</p>
+              <p><strong>Age Balance</strong> — биоревитализация + домашний план</p>
+              <p><strong>Clear Skin</strong> — курс против высыпаний (4 визита)</p>
+            </div>
+            <a href="#booking" class="btn btn--primary">Подобрать программу</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="prices">
+        <div class="container">
+          <div class="section__head">
+            <h2>Цены и понятная стоимость</h2>
+            <p>Никаких скрытых доплат. Все этапы и стоимость согласовываются заранее.</p>
+          </div>
+          <div class="grid grid--prices">
+            <article class="card price"><h3>Консультация косметолога</h3><p class="price__value">1 500 ₽</p></article>
+            <article class="card price"><h3>Ультразвуковая чистка лица</h3><p class="price__value">3 500 ₽</p></article>
+            <article class="card price"><h3>Комбинированная чистка</h3><p class="price__value">4 200 ₽</p></article>
+            <article class="card price"><h3>Биоревитализация</h3><p class="price__value">8 900 ₽</p></article>
+            <article class="card price"><h3>Мезотерапия лица</h3><p class="price__value">7 500 ₽</p></article>
+            <article class="card price"><h3>Пилинг + уходовая маска</h3><p class="price__value">4 800 ₽</p></article>
+          </div>
+          <div class="price-cta card">
+            <p>Запишитесь сегодня и получите экспресс-диагностику кожи в подарок.</p>
+            <a class="btn btn--primary" href="#booking">Записаться со скидкой</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="trust">
+        <div class="container">
+          <div class="section__head">
+            <h2>Результаты и доверие</h2>
+            <p>Безопасность, экспертность и реальные изменения "до/после" без тяжелых фильтров.</p>
+          </div>
+
+          <div class="works card">
+            <h3>Примеры работ</h3>
+            <div class="works__grid">
+              <article class="work">
+                <div class="work__placeholder">
+                  <span>До</span><span>После</span>
+                </div>
+                <p>Кейс 1: чистка + курс ухода, 3 недели</p>
+              </article>
+              <article class="work">
+                <div class="work__placeholder">
+                  <span>До</span><span>После</span>
+                </div>
+                <p>Кейс 2: биоревитализация, 1 месяц</p>
+              </article>
+              <article class="work">
+                <div class="work__placeholder">
+                  <span>До</span><span>После</span>
+                </div>
+                <p>Кейс 3: anti-acne программа, 6 недель</p>
+              </article>
+            </div>
+          </div>
+
+          <div class="grid grid--trust">
+            <article class="card trust">
+              <p class="trust__icon" aria-hidden="true">🏆</p>
+              <h3>Опыт 8+ лет</h3>
+              <p>Точно определяем потребности кожи и строим план с прогнозируемым результатом.</p>
+            </article>
+            <article class="card trust">
+              <p class="trust__icon" aria-hidden="true">🧴</p>
+              <h3>Стерильность и безопасность</h3>
+              <p>Одноразовые расходники, стерилизация, контроль сроков и только сертифицированные препараты.</p>
+            </article>
+            <article class="card trust">
+              <p class="trust__icon" aria-hidden="true">📜</p>
+              <h3>Сертификация и медподход</h3>
+              <p>Профильное обучение и регулярное повышение квалификации по современным методикам.</p>
+            </article>
+          </div>
+
+          <div class="reviews grid">
+            <article class="card review">
+              <p>"Кожа стала плотнее и ровнее уже после первого визита. Очень деликатно и профессионально."</p>
+              <span>— Алина, 29 лет</span>
+            </article>
+            <article class="card review">
+              <p>"Долго боялась инъекций, но здесь все объяснили и сделали максимально естественно. Восторг."</p>
+              <span>— Марина, 36 лет</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--cta" id="booking">
+        <div class="container">
+          <div class="cta card">
+            <div class="cta__text">
+              <h2>Оставьте заявку и получите персональный план ухода</h2>
+              <p>Ответим в течение 10 минут, подберем процедуру под задачу и запишем на удобное время.</p>
+              <ul class="cta__list">
+                <li>Бесплатная мини-консультация перед записью</li>
+                <li>Памятка по уходу после процедуры</li>
+                <li>Сопровождение в мессенджере 7 дней</li>
+              </ul>
+            </div>
+            <form class="booking-form" id="bookingForm">
+              <label>
+                Имя
+                <input type="text" name="name" placeholder="Ваше имя" required />
+              </label>
+              <label>
+                Телефон
+                <input type="tel" id="phoneInput" name="phone" placeholder="+7 (___) ___-__-__" required />
+              </label>
+              <label>
+                Интересующая услуга
+                <select name="service" required>
+                  <option value="">Выберите услугу</option>
+                  <option>Чистка лица</option>
+                  <option>Инъекции</option>
+                  <option>Уходовые процедуры</option>
+                  <option>Консультация</option>
+                </select>
+              </label>
+              <div class="booking-form__actions">
+                <button class="btn btn--primary" type="submit">Записаться</button>
+                <button class="btn btn--ghost" type="button">Получить консультацию</button>
+              </div>
+              <p class="form-note">Нажимая кнопку, вы соглашаетесь на обработку персональных данных.</p>
+              <p class="form-success" id="formSuccess" aria-live="polite"></p>
+            </form>
+          </div>
+
+          <div class="faq card">
+            <h3>Частые вопросы</h3>
+            <details>
+              <summary>Будет ли больно?</summary>
+              <p>Используем щадящие техники, а при необходимости местную анестезию.</p>
+            </details>
+            <details>
+              <summary>Когда виден результат?</summary>
+              <p>Первичные изменения заметны сразу, устойчивый эффект формируется в течение курса.</p>
+            </details>
+            <details>
+              <summary>Можно ли подобрать уход онлайн?</summary>
+              <p>Да, проведем консультацию и составим предварительный план до очного визита.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <a href="#booking" class="floating-cta">Записаться</a>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
